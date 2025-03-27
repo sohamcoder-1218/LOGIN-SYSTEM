@@ -11,12 +11,12 @@ printf("ENTER YOUR PASSWORD= ");
 scanf("%s",checkpass);
 if(strcmp(username,checkuser)==0 && strcmp(password,checkpass)==0)
 {
-    printf("LOGIN SUCCESSFUL");
+    printf("LOGIN SUCCESSFUL"); //if successful
 }
 else
 {
     printf("LOGIN FAILED");
-    printf(" PLEASE TRY AGAIN");
+    printf(" PLEASE TRY AGAIN"); //failed
 }
 
     return 0;
